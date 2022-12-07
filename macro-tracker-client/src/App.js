@@ -14,7 +14,7 @@ import SignOut from './components/auth/SignOut'
 import ChangePassword from './components/auth/ChangePassword'
 
 const App = () => {
-
+// inconsistent use of spaces vs tabs for indentation, pick one and stick with it ( if you change the tab size it breaks the indentation of your code - 4 instance i like to use 4 spaces per tab and you have 2 here, so where you used tabs it looks right to me but where you used spaces aren't getting adjusted so it looks super sloppy, adjusting back to 2 spaces per tab shows me your not doing this intentionally )
   const [user, setUser] = useState(null)
   const [msgAlerts, setMsgAlerts] = useState([])
 
